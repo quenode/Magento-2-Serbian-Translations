@@ -1,0 +1,19 @@
+{
+  "name": "clarus/language-sr-latn-rs",
+  "description": "Serbian (Latin) language package for Magento 2",
+  "type": "magento2-language",
+  "license": ["MIT"],
+  "authors": [
+    {
+      "name": "Quenode",
+      "email": "quenode@gmail.com",
+      "homepage": "https://clarus.rs"
+    }
+  ],
+  "autoload": {
+    "files": ["registration.php"]
+  },
+  "require": {
+    "magento/framework": ">=103.0.0"
+  }
+}
